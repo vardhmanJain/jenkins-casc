@@ -11,6 +11,7 @@ credentials:
           scope: GLOBAL
           username: "jenkins"
 jenkins:
+  systemMessage: "Hi there, this is vardhman's playground"
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
