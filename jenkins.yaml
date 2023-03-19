@@ -77,6 +77,18 @@ security:
   sSHD:
     port: -1
 unclassified:
+  jmsProviders:
+    configs:
+      - activeMq:
+          name: "Active MQ"
+          broker: "amqp://localhost:5672"
+          topic: "MyTopic"
+          topicProvider: "default"
+          useQueues: false
+          authenticationMethod:
+            simple:
+              username: "admin"
+              password: "password"
   buildDiscarders:
     configuredBuildDiscarders:
     - "jobBuildDiscarder"
