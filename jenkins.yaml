@@ -81,7 +81,7 @@ unclassified:
     configs:
       - activeMq:
           name: "Active MQ"
-          broker: "amqp://localhost:5672"
+          broker: "tcp://localhost:61616"
           topic: "MyTopic"
           topicProvider: "default"
           useQueues: true
