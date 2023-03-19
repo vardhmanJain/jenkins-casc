@@ -11,7 +11,7 @@ credentials:
           scope: GLOBAL
           username: "jenkins"
 jenkins:
-  systemMessage: "Hi there, this is vardhman's playground"
+  systemMessage: "Hi there, this is vardhman's playground #3"
   agentProtocols:
   - "JNLP4-connect"
   - "Ping"
@@ -84,7 +84,7 @@ unclassified:
           broker: "amqp://localhost:5672"
           topic: "MyTopic"
           topicProvider: "default"
-          useQueues: false
+          useQueues: true
           authenticationMethod:
             simple:
               username: "admin"
